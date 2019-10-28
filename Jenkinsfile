@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'npm --help'
+        sh 'npm -h'
       }
     }
   }
