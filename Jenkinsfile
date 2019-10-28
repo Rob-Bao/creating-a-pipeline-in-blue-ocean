@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh '''npm install npm -g
+        sh '''npm install express -g --save-dev
 npm install --save-dev cross-env'''
       }
     }
